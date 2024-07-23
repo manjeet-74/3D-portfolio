@@ -1,30 +1,30 @@
 import {
-    car,
-    contact,
-    css,
-    estate,
-    express,
-    git,
-    github,
-    html,
-    javascript,
-    linkedin,
-    mongodb,
-    motion,
-    mui,
-    nextjs,
-    nodejs,
-    pricewise,
-    react,
-    redux,
-    sass,
-    snapgram,
-    summiz,
-    tailwindcss,
-    threads,
-    typescript,
+  car,
+  contact,
+  css,
+  estate,
+  express,
+  git,
+  github,
+  html,
+  javascript,
+  linkedin,
+  mongodb,
+  motion,
+  mui,
+  nextjs,
+  nodejs,
+  pricewise,
+  react,
+  redux,
+  sass,
+  snapgram,
+  summiz,
+  tailwindcss,
+  threads,
+  typescript,
 } from "../assets/icons";
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { freelance, meta, shopify, starbucks, tesla } from "../assets/images";
 
 export const skills = [
   {
@@ -110,6 +110,19 @@ export const skills = [
 ];
 
 export const experiences = [
+  {
+    title: "Frontend developer",
+    company_name: "Freelance",
+    icon: freelance,
+    iconBg: "#accbe1",
+    date: "March 2024 - present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
   {
     title: "React.js Developer",
     company_name: "Starbucks",
