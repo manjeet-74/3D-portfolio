@@ -29,14 +29,16 @@ const Home = () => {
   }, [isPlayingMusic]);
 
   const adjustIslandForScreenSize = () => {
-    let screenScale = null;
+    let screenScale = [1, 1, 1];
     let screenPosition = [0, -6.5, -43];
     let rotation = [0.1, 4.7, 0];
 
     if (window.innerWidth < 768) {
       screenScale = [0.9, 0.9, 0.9];
-    } else {
-      screenScale = [1, 1, 1];
+    }
+    if (window.innerWidth < 500) {
+      screenScale = [0.7, 0.7, 0.7];
+      screenPosition = [0, -8, -43];
     }
 
     return [screenScale, screenPosition, rotation];
